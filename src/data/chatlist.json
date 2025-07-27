@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "isOnline": true,
+      "isTyping": false
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "isOnline": true,
+      "isTyping": false
+    }
+  ]
+}
