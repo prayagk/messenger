@@ -3,12 +3,16 @@ import chatlist from "../../data/chatlist.json";
 import useChatContext from "../../context/chat-context";
 
 export default function ChatSidebar() {
-  const { selectUser } = useChatContext();
+  const { chatIndex, selectUser } = useChatContext();
 
   return (
     <div className="chat-sidebar">
       {chatlist.users.map((user) => (
-        <div key={user.id} onClick={() => selectUser(user.id)}>
+        <div
+          className={chatIndex === user.id ? "bg-gray-900" : ""}
+          key={user.id}
+          onClick={() => selectUser(user.id)}
+        >
           <UserCard name={user.name} />
         </div>
       ))}
