@@ -21,6 +21,7 @@ export default function Input({ sendMessage }: InputProps) {
       className="input-container w-full flex p-2 h-fit"
     >
       <input
+        autoFocus={true}
         placeholder="Message"
         name="message"
         className="border w-[90%] p-2"
