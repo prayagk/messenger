@@ -4,7 +4,7 @@ import ChatSidebar from "./chat-sidebar";
 import { ChatContext } from "../context/chat-context";
 
 export default function MessengerContainer() {
-  const [chatIndex, setChatIndex] = useState<number | null>(null);
+  const [chatIndex, setChatIndex] = useState<number>(1);
 
   const selectUser = (id: number) => setChatIndex(id);
 
