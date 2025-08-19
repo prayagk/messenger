@@ -1,12 +1,10 @@
 # Messenger 🚀
 
-A simple messaging platform built with React.
+A simple messaging app UI built within 2 hours as part of a take-home challenge.
 
-## Architecture & Tech Stack
+## Tech Stack
 
-- **Frontend / Clients**:
-  - React application
-- **Messaging Core**: Real-time messaging infrastructure
+- React
 
 ## Features 🚩
 
